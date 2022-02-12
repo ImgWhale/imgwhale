@@ -6,7 +6,6 @@ export default defineUserConfig<DefaultThemeOptions>({
   title: 'imgwhale',
   description: 'imgwhale usage documentation.',
   shouldPrefetch: true,
-  base: '/imgwhale/',
   themeConfig: {
     logo: '/imgwhale.png',
     locales: {
