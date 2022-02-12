@@ -38,7 +38,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     docsRepo: 'https://github.com/BLUE-DEVIL1134/imgwhale',
     docsBranch: 'gh-pages',
     editLink: true,
-    editLinkPattern: ":repo/edit/:branch/:path",
+    editLinkPattern: ":repo/edit/:branch/docs/:path",
     repoLabel: "GitHub",
   },
 });
