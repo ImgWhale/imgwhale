@@ -13,7 +13,7 @@ app.post('/new', async (request: FastifyRequest, reply: FastifyReply) => {
 });
 
 app.get('/', async (request: FastifyRequest, reply: FastifyReply) => {
-    return reply.redirect('https://docs.imgwhale.com');
+    return reply.redirect('https://docs.imgwhale.xyz');
 });
 
 app.get('/*', async (request: FastifyRequest, reply: FastifyReply) => {
