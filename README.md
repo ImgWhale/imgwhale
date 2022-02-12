@@ -1,13 +1,9 @@
+<p align="center"><img src="./.github/imgwhale.png"></p>
+
 # imgwhale
 
 A dropbox based image storage service built in typescript.
 
-## Usage
+## Docs
 
-### **POST** `/new`
-
-Upload a file to the endpoint via a post requests and the file will be stored and an uniqe id will be returned.
-
-### **GET** /[id]
-
-Make a get request to the endpoint with the id of the file you want to retrieve.
+You can find the docs at [docs.imgwhale.xyz](https://docs.imgwhale.xyz/).

@@ -12,6 +12,10 @@ app.post('/new', async (request: FastifyRequest, reply: FastifyReply) => {
     return reply.code(200).send({ error: false, message: 'IMAGE_UPLOADED', fileId: fileId });
 });
 
+app.get('/', async (request: FastifyRequest, reply: FastifyReply) => {
+    return reply.redirect('https://docs.imgwhale.com');
+});
+
 app.get('/*', async (request: FastifyRequest, reply: FastifyReply) => {
     // @ts-ignore
     const fileId = request.params['*'];
