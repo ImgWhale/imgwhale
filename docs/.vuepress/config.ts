@@ -34,6 +34,19 @@ export default defineUserConfig<DefaultThemeOptions>({
         ],
       },
     },
+    sidebar: {
+      '/examples/': [
+        {
+          text: 'Examples',
+          collapsible: false,
+          children: [
+            '/examples/readme.md',
+            '/examples/python.md',
+            '/examples/dart.md',
+          ],
+        },
+      ],
+    },
     repo: 'https://github.com/BLUE-DEVIL1134/imgwhale',
     docsRepo: 'https://github.com/BLUE-DEVIL1134/imgwhale',
     docsBranch: 'gh-pages',

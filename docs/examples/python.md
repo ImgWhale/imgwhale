@@ -8,7 +8,7 @@ prev: ./readme.md
 
 ## New Image In Storage
 
-```python
+```python{3,4}
 import requests
 
 # An tailing / after /new will give error
@@ -18,7 +18,7 @@ print(req.json())  # {'error': False, 'message': 'IMAGE_UPLOADED', 'fileId': 'd1
 
 ## Retreive An Image Form Storage
 
-```python
+```python{3,4}
 import requests
 
 # An tailing / after /[id] will give error
