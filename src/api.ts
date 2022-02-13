@@ -3,9 +3,9 @@ import uniqid from 'uniqid';
 
 async function uploadImage(buffer: Buffer): Promise<string> {
     const client = new Dropbox({
-        accessToken: process.env.dropboxAccessToken || 'hxx7lHh89HoAAAAAAAAAAT_Z-tkk-tm2rSeOuJ_O-Q2UlhPNJHY3voerMRsWDm6T',
-        clientId: process.env.dropboxClientId || 'vihwn8vyzucm77o',
-        clientSecret: process.env.dropboxClientSecret || '9hiurss4llve03m',
+        accessToken: process.env.dropboxAccessToken,
+        clientId: process.env.dropboxClientId,
+        clientSecret: process.env.dropboxClientSecret,
     });
     let fileId = uniqid();
     await client.filesUpload({
@@ -17,9 +17,9 @@ async function uploadImage(buffer: Buffer): Promise<string> {
 
 async function downloadImage(fileId: string): Promise<Buffer | string> {
     const client = new Dropbox({
-        accessToken: process.env.dropboxAccessToken || 'hxx7lHh89HoAAAAAAAAAAT_Z-tkk-tm2rSeOuJ_O-Q2UlhPNJHY3voerMRsWDm6T',
-        clientId: process.env.dropboxClientId || 'vihwn8vyzucm77o',
-        clientSecret: process.env.dropboxClientSecret || '9hiurss4llve03m',
+        accessToken: process.env.dropboxAccessToken,
+        clientId: process.env.dropboxClientId,
+        clientSecret: process.env.dropboxClientSecret,
     });
     try {
         const response = await client.filesDownload({ path: `/${fileId}.jpg`,});
