@@ -25,4 +25,4 @@ Use Now! :rocket:
 
 ---
 
-All contributions are accepted through github pull-reuqests.
+All contributions are accepted through github pull-requests.
