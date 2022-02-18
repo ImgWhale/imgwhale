@@ -35,7 +35,7 @@ export default defineUserConfig<DefaultThemeOptions>({
       },
     },
     sidebar: {
-      '/examples/': [
+      '/examples': [
         {
           text: 'Examples',
           collapsible: false,
