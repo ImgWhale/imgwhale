@@ -8,6 +8,10 @@ export default defineUserConfig<DefaultThemeOptions>({
   shouldPrefetch: true,
   themeConfig: {
     logo: '/imgwhale.png',
+	head: [
+      ['link', { rel: 'icon', href: `/imgwhale.png` }],
+      ['link', { rel: 'apple-touch-icon', href: `/imgwhale.png` }],
+	],
     locales: {
       '/': {
         navbar: [

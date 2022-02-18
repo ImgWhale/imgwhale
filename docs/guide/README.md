@@ -30,31 +30,31 @@ imgwhale, to reduce spam, has a limit of 49 requests per 10 seconds per each IP 
 
 The following are all the possible responses from imgwhale.
 
-### IMAGE_FIELD_EMPTY <Badge text="POST" />
+### IMAGE_FIELD_EMPTY <Badge text="POST" type="danger" vertical="middle" />
 
-::: tip This error is returned when the image field is empty.
+::: danger This error is returned when the image field is empty.
 **Status Code** • `400`<br>
 **Message** • `IMAGE_FIELD_EMPTY`<br>
 **Error** • `true`
 :::
 
-### IMAGE_TOO_LARGE <Badge text="POST" />
+### IMAGE_TOO_LARGE <Badge text="POST" type="danger" vertical="middle" />
 
-::: tip This error is returned when the image is more than 10 mb.
+::: danger This error is returned when the image is more than 10 mb.
 **Status Code** • `400`<br>
 **Message** • `IMAGE_TOO_LARGE`<br>
 **Error** • `true`
 :::
 
-### TOO_MANY_REQUESTS <Badge text="POST" />
+### TOO_MANY_REQUESTS <Badge text="POST" type="warning" vertical="middle" />
 
-::: tip This error is returned when you have exceeded the limit of requests per 10 minutes per each IP address.
+::: warning This error is returned when you have exceeded the limit of requests per 10 minutes per each IP address.
 **Status Code** • `429`<br>
 **Message** • `TOO_MANY_REQUESTS`<br>
 **Error** • `true`
 :::
 
-### IMAGE_UPLOADED <Badge text="POST" />
+### IMAGE_UPLOADED <Badge text="POST" vertical="middle" />
 
 ::: tip This is returned when the image is uploaded successfully.
 **Status Code** • `200`<br>
@@ -62,17 +62,17 @@ The following are all the possible responses from imgwhale.
 **Error** • `false`
 :::
 
-### INVALID_ENDPOINT <Badge text="POST" />
+### INVALID_ENDPOINT <Badge text="POST" type="danger" vertical="middle" />
 
-::: tip This error is returned when the endpoint is invalid.
+::: danger This error is returned when the endpoint is invalid.
 **Status Code** • `400`<br>
 **Message** • `INVALID_ENDPOINT`<br>
 **Error** • `true`
 :::
 
-### IMAGE_ID_EMPTY <Badge text="GET" />
+### IMAGE_ID_EMPTY <Badge text="GET" type="danger" vertical="middle" />
 
-::: tip This error is returned when the image id is empty.
+::: danger This error is returned when the image id is empty.
 **Status Code** • `400`<br>
 **Message** • `IMAGE_ID_EMPTY`<br>
 **Error** • `true`
