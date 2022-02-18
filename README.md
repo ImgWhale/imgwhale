@@ -1,9 +1,35 @@
 <p align="center"><img src="./.github/imgwhale.png"></p>
 
-# imgwhale
+<p align="center">A dropbox based image storage service built in typescript.</p>
 
-A dropbox based image storage service built in typescript.
+# Table Of Contents
+
+- [Docs](#docs)
+- [Developers](#developers)
+- [Sponsors](#sponsors)
+- [Donate](#donate)
 
 ## Docs
 
 You can find the docs at [docs.imgwhale.xyz](https://docs.imgwhale.xyz/).
+
+## Developers
+
+- [Akash Pattnaik](https://github.com/BLUE-DEVIL1134)
+
+## Sponsors
+
+Sponsor [imgwhale](https://imgwhale.xyz) and get keep us running and have your company logo on the website and here.
+
+If you wish to sponsor us, please contact me at `akashpattnaik.github@gmail.com`.
+
+## Donate
+
+Not everyone can sponsor so we are trying to keep the service free for everyone.
+And for that to keep happening we need donations.
+
+- **UPI** - akashpattnaik.github@ybl
+- **Bitcoin** - 1CtRtERW75oBNk6qmXSfYgQVqxt6NFwvLM (Blockchain - `Bitcoin`)
+- **Bitcoin** - 0x67243756d4144d6d3e132baa0660e0bc0cddf59b (Blockchain - `BEP.20`)
+- **TetherUS** - 0x67243756d4144d6d3e132baa0660e0bc0cddf59b (Blockchain - `BEP.20`)
+- **TetherUS** - TPsdCZUTadRg1nG9f2FfW15PKbecXwF32w (Blockchain - `TRC.20`)
