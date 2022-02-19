@@ -4,6 +4,7 @@ heroImage: /imgwhale.png
 actions:
   - text: Get Started
     link: /guide/
+image: /imgwhale.png
 features:
   - title: Easy to Use
     details: Its an API endpoint, thus can be used in any programming language over HTTP.
@@ -13,16 +14,24 @@ features:
     details: imgwhale is completely free for all. Literally anyone can use it.
   - title: Forever Storage
     details: imgwhale will never delete your images without your consent.
+  - title: Unlimited Storage
+    details: imgwhale has no restrictions on the amount of images you store on us.
+  - title: Ads Free
+    details: Hate Ads? We too! So no ads from us.
 footer: Copyright © 2022
 permalink: /
 ---
 
-<h6 align="right">… {{ [
-  'fast and easy',
-  'open source',
-  'free for all',
-  'forever storage',
-][Math.floor(Math.random() * 4)] }}.</h6>
+<h6 align="right">... {{ [
+  'Fast and Easy',
+  'Open source',
+  'Free for all',
+  'Forever Storage',
+  'Ads Free',
+  'Unlimited Storage',
+][Math.floor(Math.random() * 6)] }}.</h6>
+
+<p align="center"><img src="http://stats.imgwhale.xyz/views" /> <img src="http://stats.imgwhale.xyz/apiUsage" /></p>
 
 Use Now! :rocket:
 
