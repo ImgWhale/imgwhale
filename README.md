@@ -1,4 +1,4 @@
-<p align="center"><img src="./.github/imgwhale.png"></p>
+<p align="center"><img width="512px" src="./.github/ImgWhale.png"></p>
 
 <p align="center">A dropbox based image storage service built in typescript.</p>
 <p align="center"><img src="https://stats.imgwhale.xyz/views" alt="views"> <img src="https://stats.imgwhale.xyz/apiUsage" alt="views"></p>
