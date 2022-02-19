@@ -18,7 +18,9 @@ request.files.add(http.MultipartFile.fromPath(
   contentType: new MediaType('image', 'jpeg'),
 ));
 request.send().then((response) {
-  if (response.statusCode == 200) print(response.body); // {'error': False, 'message': 'IMAGE_UPLOADED', 'fileId': 'd1b120kzk295tl'}
+  if (response.statusCode == 200) print(response.body);
+  /// {'error': False, 'message': 'IMAGE_UPLOADED', 'fileId': 'ps2pf21kzu22rm2'}
+  /// The image will be available at https://imgwhale.xyz/ps2pf21kzu22rm2
 });
 ```
 
@@ -28,7 +30,7 @@ request.send().then((response) {
 import 'package:http/http.dart' as http;
 
 var requests = http.get(
-  Uri.parse('https://imgwhale.xyz/[id]'), // Let id be d1b120kzk295tl
+  Uri.parse('https://imgwhale.xyz/[id]'), // Let id be ps2pf21kzu22rm2
   headers: {'Accept': 'image/jpeg'});
 );
 print(requests.bodyBytes); // <binary data>
