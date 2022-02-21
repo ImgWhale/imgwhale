@@ -16,7 +16,8 @@ You can find the docs at [docs.imgwhale.xyz](https://docs.imgwhale.xyz/).
 
 ## Developers
 
-- [Akash Pattnaik](https://github.com/BLUE-DEVIL1134)
+- [Akash Pattnaik](https://github.com/BLUE-DEVIL1134) (Founder & CEO)
+- [Jagadish Prasad Pattanaik](https://github.com/jagadish-pattanaik) (Co-Founder & CTO)
 
 ## Sponsors
 
