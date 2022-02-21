@@ -35,3 +35,8 @@ And for that to keep happening we need donations.
 - **Bitcoin** - `0x67243756d4144d6d3e132baa0660e0bc0cddf59b` (Blockchain - `BEP.20`)
 - **TetherUS** - `0x67243756d4144d6d3e132baa0660e0bc0cddf59b` (Blockchain - `BEP.20`)
 - **TetherUS** - `TPsdCZUTadRg1nG9f2FfW15PKbecXwF32w` (Blockchain - `TRC.20`)
+
+## Connect with us
+  <a href="https://twitter.com/ImgWhale">
+    <img width="30px" src="https://www.vectorlogo.zone/logos/twitter/twitter-icon.svg" />
+  </a>&ensp;
