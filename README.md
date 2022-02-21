@@ -9,6 +9,7 @@
 - [Developers](#developers)
 - [Sponsors](#sponsors)
 - [Donate](#donate)
+- [Connect With Us](#connect-with-us)
 
 ## Docs
 
@@ -16,7 +17,7 @@ You can find the docs at [docs.imgwhale.xyz](https://docs.imgwhale.xyz/).
 
 ## Developers
 
-- [Akash Pattnaik](https://github.com/BLUE-DEVIL1134)
+- [Akash Pattnaik](https://github.com/BLUE-DEVIL1134) (Founder & CEO)
 
 ## Sponsors
 
@@ -34,3 +35,7 @@ And for that to keep happening we need donations.
 - **Bitcoin** - `0x67243756d4144d6d3e132baa0660e0bc0cddf59b` (Blockchain - `BEP.20`)
 - **TetherUS** - `0x67243756d4144d6d3e132baa0660e0bc0cddf59b` (Blockchain - `BEP.20`)
 - **TetherUS** - `TPsdCZUTadRg1nG9f2FfW15PKbecXwF32w` (Blockchain - `TRC.20`)
+
+## Connect With Us
+
+<a href="https://twitter.com/ImgWhale/"><img width="30px" src="https://www.vectorlogo.zone/logos/twitter/twitter-icon.svg" /></a>&ensp;
