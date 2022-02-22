@@ -3,6 +3,8 @@
 <p align="center">A dropbox based image storage service built in typescript.</p>
 <p align="center"><img src="https://stats.imgwhale.xyz/views?" alt="views"> <img src="https://stats.imgwhale.xyz/apiUsage?" alt="views"></p>
 
+> NOTE: This is just an prototype of how ImgWhale works, the real source isn't open for all...
+
 # Table Of Contents
 
 - [Docs](#docs)
