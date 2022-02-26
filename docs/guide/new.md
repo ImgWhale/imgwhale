@@ -15,4 +15,17 @@ Content-Type: image/jpeg
 > input.jpg
 ```
 
+# New Image In Storage <Badge text="Premium" type="success" vertical="middle" />
+
+This is only for premium users...
+
+```http{2,5,6}
+POST /new HTTP/1.1
+Host: imgwhale.xyz
+Content-Type: image/jpeg
+
+key=<your_api_key>
+> input.jpg
+```
+
 For examples in different languages, checkout the [Examples](/examples/) section.

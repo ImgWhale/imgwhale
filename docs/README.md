@@ -4,6 +4,10 @@ heroImage: /imgwhale.png
 actions:
   - text: Get Started
     link: /guide/
+    type: primary
+  - text: Launch App
+    link: https://app.imgwhale.xyz/
+    type: secondary
 image: /imgwhale.png
 features:
   - title: Easy to Use

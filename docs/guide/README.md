@@ -38,9 +38,17 @@ The following are all the possible responses from imgwhale.
 **Error** • `true`
 :::
 
+### IMAGE_NOT_FOUND <Badge text="GET" type="danger" vertical="middle" />
+
+::: danger This error is returned when the provided image id is not found.
+**Status Code** • `400`<br>
+**Message** • `IMAGE_NOT_FOUND`<br>
+**Error** • `true`
+:::
+
 ### IMAGE_TOO_LARGE <Badge text="POST" type="danger" vertical="middle" />
 
-::: danger This error is returned when the image is more than 10 mb.
+::: danger This error is returned when the image is more than 10 mb. For premium users, the limit is 25mb.
 **Status Code** • `400`<br>
 **Message** • `IMAGE_TOO_LARGE`<br>
 **Error** • `true`
@@ -48,7 +56,7 @@ The following are all the possible responses from imgwhale.
 
 ### TOO_MANY_REQUESTS <Badge text="POST" type="warning" vertical="middle" />
 
-::: warning This error is returned when you have exceeded the limit of requests per 10 minutes per each IP address.
+::: warning This error is returned when you have exceeded the limit of requests per 10 minutes per each IP address. Premium users don't have an API limit.
 **Status Code** • `429`<br>
 **Message** • `TOO_MANY_REQUESTS`<br>
 **Error** • `true`
@@ -67,6 +75,22 @@ The following are all the possible responses from imgwhale.
 ::: danger This error is returned when the endpoint is invalid.
 **Status Code** • `400`<br>
 **Message** • `INVALID_ENDPOINT`<br>
+**Error** • `true`
+:::
+
+### INVALID_API_KEY <Badge text="GET" type="danger" vertical="middle" /> <Badge text="Premium" vertical="middle" />
+
+::: danger This error is returned when the provided `API_KEY` is invalid.
+**Status Code** • `400`<br>
+**Message** • `INVALID_API_KEY`<br>
+**Error** • `true`
+:::
+
+### API_KEY_EMPTY <Badge text="GET" type="danger" vertical="middle" /> <Badge text="Premium" vertical="middle" />
+
+::: danger This error is returned when a required `API_KEY` parameter is empty.
+**Status Code** • `400`<br>
+**Message** • `API_KEY_EMPTY`<br>
 **Error** • `true`
 :::
 

@@ -36,6 +36,14 @@ export default defineUserConfig<DefaultThemeOptions>({
                     text: "Get Storage",
                     link: "/guide/get.md",
                   },
+                  {
+                    text: "List Uploads",
+                    link: "/guide/get_all_uploads.md",
+                  },
+                  {
+                    text: "Delete Uploads",
+                    link: "/guide/delete.md",
+                  },
                 ],
               },
             ],
