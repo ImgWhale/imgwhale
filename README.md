@@ -24,6 +24,10 @@ You can find the docs at [docs.imgwhale.xyz](https://docs.imgwhale.xyz/).
 
 ## Sponsors
 
+| <img src="https://avatars.githubusercontent.com/u/96657174?v=4" width="48px" height="48px" alt="Pranav" /> |
+| ----------- |
+| [Pranav](https://github.com/Pranav24205) |
+
 Sponsor [imgwhale](https://imgwhale.xyz) and get keep us running and have your company logo on the website and here.
 
 If you wish to sponsor us, please contact me at `akashpattnaik.github@gmail.com`.
